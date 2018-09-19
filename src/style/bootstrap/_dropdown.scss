@@ -1,0 +1,12 @@
+.btn.dropdown-toggle-split {
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+}
+
+.btn.dropdown-toggle-split::after {
+    margin-left: 0;
+}
+
+.btn-group .btn.dropdown-toggle-split {
+    margin-left: -1px;
+}

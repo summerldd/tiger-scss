@@ -1,0 +1,15 @@
+@import '../../../style/_common.scss';
+[nz-carousel-content] {
+    text-align: center;
+    width: $bodyWidth;
+    margin: 0 auto;
+    height: 420px;
+    line-height: 420px;
+    background: #364d79;
+    color: #fff;
+    overflow: hidden;
+  }
+
+  h3 {
+    color: #fff;
+  }

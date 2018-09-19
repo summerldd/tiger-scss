@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router';
 import { NgZorroAntdModule } from 'ng-zorro-antd';
 import { HomeComponent } from './home.component';
+import { HomeBannerComponent } from './home-banner/home-banner.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent }
@@ -15,6 +16,6 @@ const routes: Routes = [
     RouterModule.forChild(routes),
   ],
   exports: [HomeComponent],
-  declarations: [HomeComponent]
+  declarations: [HomeComponent, HomeBannerComponent]
 })
 export class HomeModule { }

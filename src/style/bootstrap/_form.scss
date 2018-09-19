@@ -1,0 +1,26 @@
+
+.form-horizontal {
+    
+    .form-group {
+        display: flex;
+        flex-direction: row;
+
+        .col-form-label {
+            width: 10rem;
+            text-align: right;
+            // margin-right: 1rem;
+        }
+    }
+}
+
+.input-sm {
+    width: 12rem !important;
+}
+
+.input-lg {
+    width: 20rem !important;
+}
+
+.input-xl {
+    width: 28rem !important;
+}
