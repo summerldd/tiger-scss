@@ -1,0 +1,56 @@
+$radius: 5px;
+$comcolor: #388ecb; //主题颜色i*I rgb(214, 0, 15)#0569b5
+$color-hover: #0858a5; //鼠标滑入
+$color-no: #a0a0a0; //不可点击
+$defaultColor: #666;
+$bodyWidth: 1200px; //页面内容部分最大宽度
+$bgColor: #f6f6f6; //页面背景色
+$bgfff: #fff; // 白背景色
+$size18: 18px;
+$size16: 16px;
+$size14: 14px;
+$size12: 12px;
+$line-off:#eaeaea; // 分割线
+$color-danger:#ff0000; //辅助色1
+$color-assist:#f29507; //辅助色2
+$color-face:#388ecb; // 直播面授
+$c333:#333;
+$c666:#666;
+$c999:#999;
+@mixin box-shadow {
+    box-shadow: 0px 0px 6px $comcolor;
+}
+
+$t-hover: all 0.3s ease-in-out;
+$boxshadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+$boxhover: 0 5px 20px rgba(0, 0, 0, 0.3);
+$pdf: rgb(172, 25, 41);
+$txt: rgb(0, 160, 238);
+$file: rgb(182, 182, 182);
+$pptcolor: #f25022;
+$wordcolor: #2f5fa3;
+$excel: #1b7243;
+$line-off: #eaeaea; // 分割线
+$color-danger: #ff0000; //辅助色1
+$color-assist: #f29507; //辅助色2
+.hover-shadow {
+    transition: $t-hover;
+    &:hover {
+        box-shadow: $boxhover;
+    }
+}
+
+.link-hover {
+    cursor: pointer !important;
+    z-index: 10;
+    position: relative;
+    &:hover {
+        color: $color-hover !important;
+    }
+}
+
+.text-flow {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
