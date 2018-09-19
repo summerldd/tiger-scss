@@ -1,3 +1,11 @@
-<p>
-  home-page works!
-</p>
+<ng-container>
+  <!-- 项目的头部模块 -->
+  <app-home-head></app-home-head>
+  <nz-spin [nzTip]="'loading...'" [nzSpinning]="bool" nzSize="large">
+    <div class="body-box">
+        <router-outlet></router-outlet>
+    </div>
+  </nz-spin>
+  <!-- 项目的尾部模块 -->
+  <app-home-footer></app-home-footer>
+</ng-container>
