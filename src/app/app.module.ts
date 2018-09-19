@@ -9,7 +9,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgZorroAntdModule, NZ_I18N, zh_CN } from 'ng-zorro-antd';
 import { registerLocaleData } from '@angular/common';
 import zh from '@angular/common/locales/zh';
-import { HomeModule } from './home/home.module';
+import { CurrentModule } from './current/current.module';
 
 registerLocaleData(zh);
 
@@ -24,7 +24,7 @@ registerLocaleData(zh);
     HttpClientModule,
     NgZorroAntdModule.forRoot(),
     AppRoutingModule,
-    HomeModule
+    CurrentModule
   ],
   providers: [{ provide: NZ_I18N, useValue: zh_CN }],
   bootstrap: [AppComponent]
