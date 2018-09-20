@@ -1,0 +1,12 @@
+@import '../../style/_common.scss';
+.home-mess{
+    width: 100%;
+    .pic{
+        height: 420px;
+        width: 360px;
+        background: beige;
+    }
+    .banner{
+        width: $bodyWidth;
+    }
+}

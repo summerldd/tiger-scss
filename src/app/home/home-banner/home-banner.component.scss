@@ -1,7 +1,10 @@
 @import '../../../style/_common.scss';
+.banner{
+    width: $bodyWidth;
+    margin: 0 auto;
+}
 [nz-carousel-content] {
     text-align: center;
-    width: $bodyWidth;
     margin: 0 auto;
     height: 420px;
     line-height: 420px;

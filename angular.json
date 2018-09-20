@@ -31,7 +31,7 @@
               "src/style/styles.scss"
             ],
             "scripts": [
-              "../node_modules/bootstrap/dist/js/bootstrap.js"
+              "node_modules/bootstrap/dist/js/bootstrap.js"
             ]
           },
           "configurations": {
@@ -84,7 +84,7 @@
               "src/style/bootstrap/bootstrap.scss"
             ],
             "scripts": [
-              "../node_modules/bootstrap/dist/js/bootstrap.js"
+              "node_modules/bootstrap/dist/js/bootstrap.js"
             ],
             "assets": [
               "src/favicon.ico",
