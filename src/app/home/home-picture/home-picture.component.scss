@@ -1,5 +1,15 @@
 .pic{
-    width: 400px;
-    height: 420px;
-    background: beige;
+    padding-top: 40px;
+    width: 1200px;
+    margin: 0 auto;
+    div{
+        margin-right: 60px;
+        nz-card{
+            width: 360px;
+        }
+
+    }
+    div:last-child{
+        margin-right: 0;
+    }
 }

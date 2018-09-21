@@ -10,12 +10,14 @@ import { NgZorroAntdModule, NZ_I18N, zh_CN } from 'ng-zorro-antd';
 import { registerLocaleData } from '@angular/common';
 import zh from '@angular/common/locales/zh';
 import { CurrentModule } from './current/current.module';
+import { VideoPlayComponent } from './component/video-play/video-play.component';
 
 registerLocaleData(zh);
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    VideoPlayComponent
   ],
   imports: [
     BrowserModule,

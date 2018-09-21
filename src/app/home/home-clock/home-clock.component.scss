@@ -7,10 +7,12 @@
 #clock{
 	width:370px;
 	padding:40px;
-	margin:20px auto 60px;
+	// margin:20px auto 60px;
     position:relative;
-    background:url('../../../assets/clock/bg.jpg') #dbe4e6;
+    background:url('../../../assets/clock/bg.jpg');
 	overflow:hidden;
+	opacity: 0.7;
+    
 }
 
 #clock:after{
@@ -31,7 +33,7 @@
 	padding: 40px 20px 20px;
 	border-radius:6px;
 	position:relative;
-	height: 54px;
+	height: 104px;
 }
 
 
@@ -60,7 +62,7 @@
 }
 
 #clock.light .alarm{
-	background:url('../../../assets/clock/alarm_light.jpg');
+	// background:url('../../../assets/clock/alarm_light.jpg');
 }
 
 #clock.light .display{
@@ -89,7 +91,7 @@
 }
 
 #clock.dark .alarm{
-	background:url('../../../assets/clock/alarm_dark.jpg');
+	// background:url('../../../assets/clock/alarm_dark.jpg');
 }
 
 #clock.dark .display{
@@ -136,32 +138,32 @@
 }
 
 #clock .digits .d1{			height:5px;width:16px;top:0;left:6px;}
-#clock .digits .d1:before{	border-width:0 5px 5px 0;border-right-color:inherit;left:-5px;}
-#clock .digits .d1:after{	border-width:0 0 5px 5px;border-left-color:inherit;right:-5px;}
+#clock .digits .d1:before{	border-width:0 5px 5px 0 !important;border-right-color:inherit !important;left:-5px;}
+#clock .digits .d1:after{	border-width:0 0 5px 5px !important;border-left-color:inherit !important;right:-5px;}
 
 #clock .digits .d2{			height:5px;width:16px;top:24px;left:6px;}
-#clock .digits .d2:before{	border-width:3px 4px 2px;border-right-color:inherit;left:-8px;}
-#clock .digits .d2:after{	border-width:3px 4px 2px;border-left-color:inherit;right:-8px;}
+#clock .digits .d2:before{	border-width:3px 4px 2px !important;border-right-color:inherit !important;left:-8px;}
+#clock .digits .d2:after{	border-width:3px 4px 2px !important;border-left-color:inherit !important;right:-8px;}
 
 #clock .digits .d3{			height:5px;width:16px;top:48px;left:6px;}
-#clock .digits .d3:before{	border-width:5px 5px 0 0;border-right-color:inherit;left:-5px;}
-#clock .digits .d3:after{	border-width:5px 0 0 5px;border-left-color:inherit;right:-5px;}
+#clock .digits .d3:before{	border-width:5px 5px 0 0 !important;border-right-color:inherit !important;left:-5px;}
+#clock .digits .d3:after{	border-width:5px 0 0 5px !important;border-left-color:inherit !important;right:-5px;}
 
 #clock .digits .d4{			width:5px;height:14px;top:7px;left:0;}
-#clock .digits .d4:before{	border-width:0 5px 5px 0;border-bottom-color:inherit;top:-5px;}
-#clock .digits .d4:after{	border-width:0 0 5px 5px;border-left-color:inherit;bottom:-5px;}
+#clock .digits .d4:before{	border-width:0 5px 5px 0 !important;border-bottom-color:inherit !important;top:-5px;}
+#clock .digits .d4:after{	border-width:0 0 5px 5px !important;border-left-color:inherit !important;bottom:-5px;}
 
 #clock .digits .d5{			width:5px;height:14px;top:7px;right:0;}
-#clock .digits .d5:before{	border-width:0 0 5px 5px;border-bottom-color:inherit;top:-5px;}
-#clock .digits .d5:after{	border-width:5px 0 0 5px;border-top-color:inherit;bottom:-5px;}
+#clock .digits .d5:before{	border-width:0 0 5px 5px !important;border-bottom-color:inherit !important;top:-5px;}
+#clock .digits .d5:after{	border-width:5px 0 0 5px !important;border-top-color:inherit !important;bottom:-5px;}
 
 #clock .digits .d6{			width:5px;height:14px;top:32px;left:0;}
-#clock .digits .d6:before{	border-width:0 5px 5px 0;border-bottom-color:inherit;top:-5px;}
-#clock .digits .d6:after{	border-width:0 0 5px 5px;border-left-color:inherit;bottom:-5px;}
+#clock .digits .d6:before{	border-width:0 5px 5px 0 !important;border-bottom-color:inherit !important;top:-5px;}
+#clock .digits .d6:after{	border-width:0 0 5px 5px !important;border-left-color:inherit !important;bottom:-5px;}
 
 #clock .digits .d7{			width:5px;height:14px;top:32px;right:0;}
-#clock .digits .d7:before{	border-width:0 0 5px 5px;border-bottom-color:inherit;top:-5px;}
-#clock .digits .d7:after{	border-width:5px 0 0 5px;border-top-color:inherit;bottom:-5px;}
+#clock .digits .d7:before{	border-width:0 0 5px 5px !important;border-bottom-color:inherit !important;top:-5px;}
+#clock .digits .d7:after{	border-width:5px 0 0 5px !important;border-top-color:inherit !important;bottom:-5px;}
 
 
 /* 1 */
@@ -295,7 +297,7 @@
 	width:16px;
 	height:16px;
 	bottom:20px;
-	background:url('../../../assets/clock/alarm_light.jpg');
+	// background:url('../../../assets/clock/alarm_light.jpg');
 	position:absolute;
 	opacity:0.2;
 }
@@ -322,7 +324,7 @@
 
 #clock .weekdays span{
 	opacity:0.2;
-	padding:0 10px;
+	padding:0 3px;
 }
 
 #clock .weekdays span.active{

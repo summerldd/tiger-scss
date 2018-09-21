@@ -1,8 +1,73 @@
 <div id="clock" class="light">
     <div class="display">
-        <div class="weekdays"></div>
+        <div class="weekdays">
+          <span [ngClass]="{'active':day==1?true:false}">MON</span>
+          <span [ngClass]="{'active':day==2?true:false}">TUE</span>
+          <span [ngClass]="{'active':day==3?true:false}">WED</span>
+          <span [ngClass]="{'active':day==4?true:false}">THU</span>
+          <span [ngClass]="{'active':day==5?true:false}">FRI</span>
+          <span [ngClass]="{'active':day==6?true:false}">SAT</span>
+          <span [ngClass]="{'active':day==7?true:false}">SUN</span>
+        </div>
         <div class="ampm"></div>
         <div class="alarm"></div>
-        <div class="digits"></div>
+        <div class="digits">
+            <div class="{{h1}}">
+                <span class="d1"></span>
+                <span class="d2"></span>
+                <span class="d3"></span>
+                <span class="d4"></span>
+                <span class="d5"></span>
+                <span class="d6"></span>
+                <span class="d7"></span>
+            </div> 
+            <div class="{{h2}}">
+                <span class="d1"></span>
+                <span class="d2"></span>
+                <span class="d3"></span>
+                <span class="d4"></span>
+                <span class="d5"></span>
+                <span class="d6"></span>
+                <span class="d7"></span>
+            </div> 
+            <div class="dots"></div>  
+            <div class="{{m1}}">
+                <span class="d1"></span>
+                <span class="d2"></span>
+                <span class="d3"></span>
+                <span class="d4"></span>
+                <span class="d5"></span>
+                <span class="d6"></span>
+                <span class="d7"></span>
+            </div> 
+            <div class="{{m2}}">
+                <span class="d1"></span>
+                <span class="d2"></span>
+                <span class="d3"></span>
+                <span class="d4"></span>
+                <span class="d5"></span>
+                <span class="d6"></span>
+                <span class="d7"></span>
+            </div> 
+            <div class="dots"></div> 
+            <div class="{{s1}}">
+                <span class="d1"></span>
+                <span class="d2"></span>
+                <span class="d3"></span>
+                <span class="d4"></span>
+                <span class="d5"></span>
+                <span class="d6"></span>
+                <span class="d7"></span>
+            </div> 
+            <div class="{{s2}}">
+                <span class="d1"></span>
+                <span class="d2"></span>
+                <span class="d3"></span>
+                <span class="d4"></span>
+                <span class="d5"></span>
+                <span class="d6"></span>
+                <span class="d7"></span>
+            </div>           
+        </div>
     </div>
 </div>

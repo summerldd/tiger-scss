@@ -6,6 +6,7 @@ import { HomeComponent } from './home.component';
 import { HomeBannerComponent } from './home-banner/home-banner.component';
 import { HomeClockComponent } from './home-clock/home-clock.component';
 import { HomePictureComponent } from './home-picture/home-picture.component';
+import { HomeNoticComponent } from './home-notic/home-notic.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent }
@@ -18,6 +19,6 @@ const routes: Routes = [
     RouterModule.forChild(routes),
   ],
   exports: [HomeComponent],
-  declarations: [HomeComponent, HomeBannerComponent, HomeClockComponent, HomePictureComponent]
+  declarations: [HomeComponent, HomeBannerComponent, HomeClockComponent, HomePictureComponent, HomeNoticComponent]
 })
 export class HomeModule { }

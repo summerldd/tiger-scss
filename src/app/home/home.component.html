@@ -1,14 +1,39 @@
 <ng-container>
   <!-- banner -->
-  <div class="home-mess clearfix">
-    <!-- <div class="pic left">
-      <app-home-picture></app-home-picture>
-    </div> -->
-    <div class="banner left">
+  <div class="home-mess">
+    <div class="banner">
         <app-home-banner></app-home-banner>
+        <div class="clock">
+          <app-home-clock></app-home-clock>
+          <app-home-notic></app-home-notic>
+        </div>
     </div>
-    <div class="clock right">
-      <app-home-clock></app-home-clock>
+    <div class="message">
+        <div class="process-box">
+          <div class="flex-box">
+            <ul>
+              <li><img src="assets/images/vatarF/vatar1.jpg"><span></span></li>
+              <li><img src="assets/images/vatarF/vatar2.jpg"><span></span></li>
+              <li><img src="assets/images/vatarF/vatar3.jpg"><span></span></li>
+              <li><img src="assets/images/vatarF/vatar4.jpg"><span></span></li>
+              <li><img src="assets/images/vatarF/vatar5.gif"><span></span></li>
+            </ul>
+          </div>
+        </div>
+    </div>
+    <div class="headline">
+      <h1> Last Match 
+          <span class="yellow"> Statics</span>
+      </h1>
+      <p>
+          The Love Boat soon will be making another run the Love Boat promises something <br> everyone Today still wanted they survive as soldiers of fortune.
+      </p>
+    </div>
+    <div class="clearfix" style="width: 1200px;margin: 0 auto">
+      <div class="pic left">
+        <app-home-picture></app-home-picture>
+      </div>
+      <div class="left"></div>
     </div>
   </div>
 </ng-container>

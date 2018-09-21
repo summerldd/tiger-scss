@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeBannerComponent implements OnInit {
 
-  array = [ 1, 2, 3, 4 ];
+  array = [ '/assets/images/bgpic.jpg' ];
   constructor() { }
 
   ngOnInit() {

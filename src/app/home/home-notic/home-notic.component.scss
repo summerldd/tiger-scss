@@ -1,0 +1,12 @@
+.notic{
+    width: 100%;
+    text-align: left;
+    nz-card{
+        width: 370px !important;
+    }
+}
+:host ::ng-deep{
+    .ant-card-body{
+        padding: 23px !important;
+    }
+}
