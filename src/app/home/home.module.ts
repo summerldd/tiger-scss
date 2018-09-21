@@ -7,6 +7,7 @@ import { HomeBannerComponent } from './home-banner/home-banner.component';
 import { HomeClockComponent } from './home-clock/home-clock.component';
 import { HomePictureComponent } from './home-picture/home-picture.component';
 import { HomeNoticComponent } from './home-notic/home-notic.component';
+import { ComponentModule } from '../component/component.module';
 
 const routes: Routes = [
   { path: '', component: HomeComponent }
@@ -17,6 +18,7 @@ const routes: Routes = [
     CommonModule,
     NgZorroAntdModule.forRoot(),
     RouterModule.forChild(routes),
+    ComponentModule,
   ],
   exports: [HomeComponent],
   declarations: [HomeComponent, HomeBannerComponent, HomeClockComponent, HomePictureComponent, HomeNoticComponent]
